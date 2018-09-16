@@ -1,16 +1,17 @@
-#Code book
-#Introduction.
+# Code book
+
+# Introduction.
 
 This dataset is generated to complete the week 4 assigment of the “Getting and cleaning data” course at Coursera.
 
-##Study design
+## Study design
 
-###Original data set
+### Original data set
 
 This dataset derived from the "Human Activity Recognition Using Smartphones Data Set" dataset you can find here --> http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 That dataset containes signar readings from the accelerometer and the gyroscope of a Samsung Galaxy S II mobile. For details about the experiments and the nature of the signals please refer to the original dataset web page and files.
 
-###Data analysis
+### Data analysis
 
 The data set I generated from the original one had the pourpose of show the average of all the variables related to means and standard deviation for every subject and every activity.
 This goal was achieved by the following steps:
@@ -35,7 +36,7 @@ I couldn't substitute the values from the subject values because I didn't have a
 The steps performed to generate the dataset are implemented and described in the run_analysis.R script.
 
 
-##Code book
+## Code book
 Here are the names and the meaning of the dataset variables. 
 
 The code of the subject who performed the experiment. It is a category number
@@ -44,7 +45,7 @@ subject
 The activity performed by the subject during the experiment. It is a category label
 activity
 
-###Time domain signals at 50Hz. They are continues values.
+### Time domain signals at 50Hz. They are continues values.
 
 **Accelerator body component signals mean along the three axis**
 tbodyaccmeanx
@@ -127,7 +128,7 @@ tbodygyrojerkmagmean
 tbodygyrojerkmagstd
 
 
-###Fast Fourier transform. They are continues values.
+### Fast Fourier transform. They are continues values.
 **Accelerator body component signals mean along the three axis**
 fbodyaccmeanx
 fbodyaccmeany           
