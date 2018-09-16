@@ -13,6 +13,15 @@ All the script needs is space to download the files from the repo and to extract
 Once executed, run_analysis.R downloads the necessary data set from UCI repository (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and start the analisys. It will use the data set files (both train and test) and will read from the labels and subject files too.
 DON'T MODIFY OR ERASE ANY FILE IN THE DOWNLOADED PACKAGE.
 
+## Versioning 
+ 
+The script can be run with 3.4.4 or above
+
+It needs the following libraries installed:
+
+- dplyr
+
+- stringi
 
 ## Authors
 
