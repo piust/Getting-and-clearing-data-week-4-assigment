@@ -102,10 +102,14 @@ tgravityaccstdz
 **Accelerator body component Jerk signals mean along the three axis**
 
 tbodyaccjerkmeanx
-tbodyaccjerkmeany       
+
+tbodyaccjerkmeany     
+
 tbodyaccjerkmeanz
 
+
 **Accelerator body component Jerk signals standard deviation mean along the three axis**
+
 tbodyaccjerkstdx
 
 tbodyaccjerkstdy
