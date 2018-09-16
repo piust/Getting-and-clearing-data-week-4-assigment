@@ -1,4 +1,5 @@
-##Introduction.
+#Code book
+#Introduction.
 
 This dataset is generated to complete the week 4 assigment of the “Getting and cleaning data” course at Coursera.
 
